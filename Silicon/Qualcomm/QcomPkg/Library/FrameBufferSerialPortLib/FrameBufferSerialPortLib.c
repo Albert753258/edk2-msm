@@ -103,6 +103,7 @@ void FbConPutCharWithFactor(char c, int type, unsigned scale_factor)
     return;
 
 paint:
+  //MicroSecondDelay( 2000 ); 
 
   if ((unsigned char)c > 127)
     return;

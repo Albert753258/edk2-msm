@@ -66,8 +66,8 @@
   }
 
   FILE DRIVER = 5776232e-082d-4b75-9a0e-fe1d13f7a5d9 {
-    SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/sm8250/PmicDxe/PmicDxe.depex
-    SECTION PE32 = Platform/EFI_Binaries/Drivers/sm8250/PmicDxe/PmicDxe.efi
+    SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/Devices/munch/PmicDxe/PmicDxeLa.depex
+    SECTION PE32 = Platform/EFI_Binaries/Drivers/Devices/munch/PmicDxe/PmicDxeLa.efi
     SECTION UI = "PmicDxe"
   }
 
@@ -132,8 +132,8 @@
   }
 
   FILE DRIVER = cd823a4d-7dec-4531-ae5d-4134fa4127b8 {
-    SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/sm8250/UsbConfigDxe/UsbConfigDxe.depex
-    SECTION PE32 = Platform/EFI_Binaries/Drivers/sm8250/UsbConfigDxe/UsbConfigDxe.efi
+    SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/Devices/munch/UsbConfigDxe/UsbConfigDxe.depex
+    SECTION PE32 = Platform/EFI_Binaries/Drivers/Devices/munch/UsbConfigDxe/UsbConfigDxe.patched.dualrole.efi
     SECTION UI = "UsbConfigDxe"
   }
 
